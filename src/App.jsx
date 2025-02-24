@@ -1,12 +1,15 @@
-import React from 'react'
-import Header from './Components/Header'
+import React from "react";
+import Header from "./components/Header";
+import Hero from "./Components/Hero";
 
-const App = () => {
+
+function App() {
   return (
     <div>
-      <Header></Header>
+      <Header />
+      <Hero/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
