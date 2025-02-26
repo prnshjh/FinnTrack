@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
+import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
+import Dashboard from "./Components/Dashboard";
+
 
 
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <Hero/>
-      <Footer/>
+      <Dashboard/>
     </div>
   );
 }
