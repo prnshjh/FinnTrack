@@ -1,13 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
+import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import DashBoard from "./Components/DashBoard";
+
 
 
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <Hero/>
+      <DashBoard/>
     </div>
   );
 }
