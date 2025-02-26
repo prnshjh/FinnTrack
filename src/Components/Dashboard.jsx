@@ -3,7 +3,7 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 Chart.register(ArcElement, Tooltip, Legend);
 
-const DashBoard = () => {
+const Dashboard = () => {
     const totalIncome=50000;
     const totalExpenses=30000;
     const balance =totalIncome -totalExpenses;
@@ -61,4 +61,4 @@ const DashBoard = () => {
   );
 };
 
-export default DashBoard
+export default Dashboard

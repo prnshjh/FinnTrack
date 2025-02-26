@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import DashBoard from "./Components/DashBoard";
+import Dashboard from "./Components/Dashboard";
 
 
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header/>
       <Hero/>
-      <DashBoard/>
+      <Dashboard/>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const Header = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex gap-6">
-        {["Home","DashBoard","Reports","About"].map((items)=>(
+        {["Home","Dashboard","Reports","About"].map((items)=>(
           <a
             key={items}
             href={`#${items.toLowerCase()}`}
@@ -47,7 +47,7 @@ const Header = () => {
           animate={{opacity:1,y:0}}
           transition={{duration:0.4}}
         >
-          {["Home","DashBoard","Reports","About"].map((items)=>(
+          {["Home","Dashboard","Reports","About"].map((items)=>(
             <a
               key={items}
               href={`#${items.toLowerCase()}`}
